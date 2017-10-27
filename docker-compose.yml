@@ -28,7 +28,7 @@ services:
       - elk
     depends_on:
       - elasticsearch
-
+    command: logstash -f /usr/share/logstash/pipeline/logstash-weblogic.conf  
   kibana:
     build: kibana/
     volumes:
