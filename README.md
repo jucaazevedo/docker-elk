@@ -231,7 +231,7 @@ variable, allowing the user to adjust the amount of memory that can be used by e
 | Elasticsearch | ES_JAVA_OPTS         |
 | Logstash      | LS_JAVA_OPTS         |
 
-To accomodate environments where memory is scarce (Docker for Mac has only 2 GB available by default), the Heap Size
+To accommodate environments where memory is scarce (Docker for Mac has only 2 GB available by default), the Heap Size
 allocation is capped by default to 256MB per service in the `docker-compose.yml` file. If you want to override the
 default JVM configuration, edit the matching environment variable(s) in the `docker-compose.yml` file.
 
